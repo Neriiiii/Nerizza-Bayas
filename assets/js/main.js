@@ -1,3 +1,22 @@
+
+/*=============== POPUP-IMAGE ===============*/
+const imageLinks = document.querySelectorAll('.image-link');
+const imageContainer = document.querySelector('.image-container');
+const closeButton = document.querySelector('.close-button');
+const displayedImage = document.querySelector('.displayed-image');
+
+imageLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    const imageSrc = link.getAttribute('data-image');
+    displayedImage.src = `assets/documents/${imageSrc}`;
+    imageContainer.style.display = 'block';
+  });
+});
+
+closeButton.addEventListener('click', () => {
+  imageContainer.style.display = 'none';
+});
+
 /*=============== SHOW MENU ===============*/
 const navMenu = document.getElementById('nav-menu'),
       navToggle = document.getElementById('nav-toggle'),
