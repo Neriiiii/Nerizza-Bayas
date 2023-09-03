@@ -1122,7 +1122,8 @@ row-gap: 0;
   background-color: var(--white-color);
   padding: 30px 10px 10px 10px;
   border: 1px solid #ccc;
-  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+  box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.5);
   z-index: 100;
 }
 .close-button {
@@ -1646,11 +1647,13 @@ left: 0;
  
 /* For large devices */
 @media screen and (min-width: 1150px){
+
   .container{
     margin-inline: auto;
   }
   .section{
     padding-block: 7rem 2rem;
+    
   }
   .section__title-1::after,
   .section__title-2::after{
@@ -1711,7 +1714,7 @@ left: 0;
     grid-template-columns: repeat(2, 460px);
     gap: 2rem 4rem;
     align-items: center;
-    padding-block: 5.5rem;
+    padding-block: 10rem;
   }
   .home__perfil{
     grid-column: 2 / 3;
@@ -1799,7 +1802,9 @@ left: 0;
     grid-template-columns: 440px 525px;
     gap: 1rem 9rem;
     align-items: center;
-    padding-block: 1rem;
+    padding-block: 8rem;
+    
+    
   }
   .about__perfil{
     order: -1;
@@ -1868,7 +1873,7 @@ left: 0;
   .education__container{
     grid-template-columns: repeat(3,350px);
     column-gap: 2rem;
-    padding-block: 3rem 5rem;
+    padding-block: 10rem 5rem;
   }
   .education__content{
     padding: 3.5rem 1.5rem 3.5rem;
@@ -1920,7 +1925,7 @@ left: 0;
     column-gap: .3rem;
   }
   .image-container{
-    width: 45%;
+    width: 40%;
     padding: 30px 10px 10px;
   }
   .close-button{
@@ -1928,7 +1933,7 @@ left: 0;
     right: 10px;
   }
   /* Service */
-  #service-container{
+  /* #service-container{
     grid-template-columns: repeat(2, 500px);
     padding-block: 3rem 5rem;
   }
@@ -1964,7 +1969,7 @@ left: 0;
   }
   .projects__button{
     right: 1.25rem;
-  }
+  } */
   .contact{
     display: flex;
     justify-content: center;
