@@ -1570,7 +1570,7 @@ left: 0;
     justify-content: center;
   }
   .image-container{
-    width: 90%;
+    width: 75%;
     padding: 30px 10px 10px;
   }
   .close-button{
@@ -1635,7 +1635,7 @@ left: 0;
     column-gap: .2rem;
   }
   .image-container{
-    width: 60%;
+    width: 50%;
     padding: 30px 10px 10px;
   }
   .close-button{
@@ -1925,7 +1925,7 @@ left: 0;
     column-gap: .3rem;
   }
   .image-container{
-    width: 40%;
+    width: 35%;
     padding: 30px 10px 10px;
   }
   .close-button{
